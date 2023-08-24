@@ -14,3 +14,14 @@ git push
 **- выделение жирным шрифтом**
 *- выделение курсивом*
 > - блок текста
+
+
+~~~mermaid
+graph LR;
+	untracked -- "git add" --> staged;
+	staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+	A --> B;
+``` 
+
